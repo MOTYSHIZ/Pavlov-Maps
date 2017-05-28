@@ -1,0 +1,1162 @@
+﻿Log file open, 05/26/17 21:36:45
+LogInit:Display: Running engine for game: Pavlov
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1403416915) SRandInit(-1403416915).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.129307
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.15.0(build = 391815) feature version = 0. Client runs version (prod = 1).1.15.0(build = 391815) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files/Epic Games/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.27-04.36.48:171][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.27-04.36.48:171][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.27-04.36.48:199][  0]LogInit: Computer: DESKTOP-3H4F7II
+[2017.05.27-04.36.48:199][  0]LogInit: User: MOTYS
+[2017.05.27-04.36.48:199][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.27-04.36.48:199][  0]LogInit: High frequency timer resolution =3.897875 MHz
+[2017.05.27-04.36.48:199][  0]LogMemory: Memory total: Physical=24.0GB (24GB approx)
+[2017.05.27-04.36.48:199][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.27-04.36.48:199][  0]LogMemory: Process Physical Memory: 268.14 MB used, 268.14 MB peak
+[2017.05.27-04.36.48:199][  0]LogMemory: Process Virtual Memory: 265.39 MB used, 265.39 MB peak
+[2017.05.27-04.36.48:199][  0]LogMemory: Physical Memory: 8918.53 MB used,  15615.17 MB free, 24533.70 MB total
+[2017.05.27-04.36.48:199][  0]LogMemory: Virtual Memory: 682.14 MB used,  15615.17 MB free, 134217728.00 MB total
+[2017.05.27-04.36.48:350][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.27-04.36.49:838][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.27-04.36.50:720][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.05.27-04.36.50:720][  0]LogD3D11RHI:       8119/0/12266 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.05.27-04.36.50:722][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.27-04.36.50:722][  0]LogD3D11RHI:       0/0/12266 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.27-04.36.50:722][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.27-04.36.50:736][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.27-04.36.50:736][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.27-04.36.50:736][  0]LogWindows: EnumDisplayDevices:
+[2017.05.27-04.36.50:736][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.05.27-04.36.50:737][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.05.27-04.36.50:737][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.27-04.36.50:737][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.05.27-04.36.50:737][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.05.27-04.36.50:737][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.05.27-04.36.50:737][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.05.27-04.36.50:737][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.05.27-04.36.50:737][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.27-04.36.51:485][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.27-04.36.51:528][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.05.27-04.36.51:624][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Intermediate/Shaders/WorkingDirectory/2648/).
+[2017.05.27-04.36.51:624][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MOTYS/AppData/Local/Temp/UnrealShaderWorkingDir/6304AD3844631B0E967AFD9B973937DF/'.
+[2017.05.27-04.36.51:624][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.27-04.36.53:623][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.27-04.36.53:734][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.27-04.36.53:838][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.27-04.36.53:941][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.27-04.36.54:047][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.27-04.36.54:164][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.27-04.36.54:276][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.27-04.36.54:380][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.27-04.36.54:472][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.27-04.36.54:591][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.27-04.36.54:713][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.27-04.36.54:814][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.27-04.36.54:914][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.27-04.36.55:016][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.27-04.36.55:114][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.27-04.36.55:307][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.27-04.36.55:307][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.27-04.36.55:393][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.27-04.36.55:558][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.27-04.36.55:624][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.27-04.36.55:726][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.27-04.36.55:827][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.27-04.36.55:925][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.27-04.36.56:027][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.27-04.36.56:027][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.27-04.36.56:807][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.27-04.36.56:907][  0]LogDerivedDataCache: Loaded boot cache 0.10s 61MB C:/Users/MOTYS/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.27-04.36.56:907][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/MOTYS/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.27-04.36.56:907][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.27-04.36.56:907][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.27-04.36.56:907][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.27-04.36.56:907][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.27-04.36.56:941][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.27-04.36.56:955][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MOTYS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.27-04.36.56:990][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.27-04.36.56:991][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.27-04.36.56:991][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.27-04.36.57:592][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.27-04.36.57:597][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.27-04.36.58:081][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.27-04.36.58:157][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.27-04.36.58:242][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.27-04.36.58:242][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.27-04.36.58:242][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.27-04.36.59:306][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: pavlov, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 2014131361
+[2017.05.27-04.36.59:373][  0]LogAssetRegistry: FAssetRegistry took 0.0218 seconds to start up
+[2017.05.27-04.36.59:419][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Plugins/CustomMapTools/Content/. Error: The system cannot find the file specified. (0x00000002)
+[2017.05.27-04.36.59:477][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.057422 seconds
+[2017.05.27-04.36.59:487][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.27-04.36.59:487][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.27-04.36.59:487][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.27-04.36.59:606][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.27-04.37.02:644][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.27-04.37.02:710][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.27-04.37.03:518][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2017.05.27-04.37.03:518][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/BaseColor.BaseColor for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.27-04.37.03:518][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2017.05.27-04.37.03:546][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.27-04.37.03:569][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2017.05.27-04.37.03:569][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/LightingModel.LightingModel for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.27-04.37.03:569][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2017.05.27-04.37.03:571][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2017.05.27-04.37.03:572][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/MaterialAO.MaterialAO for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.27-04.37.03:572][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2017.05.27-04.37.03:574][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2017.05.27-04.37.03:574][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Metallic.Metallic for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.27-04.37.03:574][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2017.05.27-04.37.03:576][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2017.05.27-04.37.03:576][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Opacity.Opacity for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.27-04.37.03:576][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2017.05.27-04.37.03:581][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2017.05.27-04.37.03:581][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Roughness.Roughness for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.27-04.37.03:581][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2017.05.27-04.37.03:620][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2017.05.27-04.37.03:621][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/Specular.Specular for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.27-04.37.03:621][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2017.05.27-04.37.03:626][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2017.05.27-04.37.03:626][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/SubsurfaceColor.SubsurfaceColor for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.27-04.37.03:626][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2017.05.27-04.37.03:629][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2017.05.27-04.37.03:629][  0]LogMaterial:Warning: Failed to compile Material /Engine/BufferVisualization/WorldNormal.WorldNormal for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.27-04.37.03:629][  0]LogMaterial:Warning: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2017.05.27-04.37.04:347][  0]SourceControl: Info Source control is disabled
+[2017.05.27-04.37.04:405][  0]SourceControl: Info Source control is disabled
+[2017.05.27-04.37.04:495][  0]SourceControl: Info Source control is disabled
+[2017.05.27-04.37.04:583][  0]SourceControl: Info Source control is disabled
+[2017.05.27-04.37.07:071][  0]LogEngine: Initializing Engine...
+[2017.05.27-04.37.07:123][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-200FE07F
+[2017.05.27-04.37.07:723][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.27-04.37.07:789][  0]LogInit: XAudio2 using 'RoseWill Headphones (USB Sound Device        )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.27-04.37.07:812][  0]LogInit: FAudioDevice initialized.
+[2017.05.27-04.37.07:907][  0]LogDerivedDataCache: Saved boot cache 0.09s 61MB C:/Users/MOTYS/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.27-04.37.07:942][  0]LogInit: Texture streaming: Enabled
+[2017.05.27-04.37.08:181][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.27-04.37.08:441][  0]LogInit: Transaction tracking system initialized
+[2017.05.27-04.37.09:242][  0]BlueprintLog: New page: Editor Load
+[2017.05.27-04.37.11:219][  0]LocalizationService: Info Localization service is disabled
+[2017.05.27-04.37.12:728][  0]LogConsoleResponse:Display: 
+[2017.05.27-04.37.13:130][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.27-04.37.13:130][  0]LogCook:Display: Mobile HDR setting 0
+[2017.05.27-04.37.13:758][  0]LogFileCache: Scanning file cache for directory 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/' took 0.02s
+[2017.05.27-04.37.15:164][  0]CustomMapToolsLog: Initializing Pavlov's workshop editor plugin
+[2017.05.27-04.37.15:324][  0]CustomMapToolsLog: Visiting F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093
+[2017.05.27-04.37.16:107][  0]SourceControl: Info Source control is disabled
+[2017.05.27-04.37.16:107][  0]Cmd: MAP LOAD FILE="F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.27-04.37.16:107][  0]LightingResults: New page: Lighting Build
+[2017.05.27-04.37.16:181][  0]MapCheck: New page: Map Check
+[2017.05.27-04.37.16:181][  0]LightingResults: New page: Lighting Build
+[2017.05.27-04.37.16:920][  0]LogAIModule: Creating AISystem for world de_nuke
+[2017.05.27-04.37.17:005][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.27-04.37.17:010][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.27-04.37.17:098][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.657ms to complete.
+[2017.05.27-04.37.17:098][  0]LogFileHelpers: Loading map 'de_Nuke' took 0.991
+[2017.05.27-04.37.17:181][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.27-04.37.17:181][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.27-04.37.17:423][  0]LogCollectionManager: Loaded 1 collections in 0.005233 seconds
+[2017.05.27-04.37.17:544][  0]LogFileCache: Scanning file cache for directory 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Collections/' took 0.01s
+[2017.05.27-04.37.17:544][  0]LogFileCache: Scanning file cache for directory 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/Developers/MOTYS/Collections/' took 0.01s
+[2017.05.27-04.37.17:544][  0]LogFileCache: Scanning file cache for directory 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/Collections/' took 0.01s
+[2017.05.27-04.37.17:544][  0]LogCollectionManager: Rebuilt the GUID cache for 1 collections in 0.000004 seconds
+[2017.05.27-04.37.17:544][  0]LogCollectionManager: Rebuilt the hierarchy cache for 1 collections in 0.000001 seconds
+[2017.05.27-04.37.17:562][  0]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 2252 classes and 456 folders.
+[2017.05.27-04.37.17:570][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.27-04.37.17:570][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.27-04.37.17:673][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0030 seconds. Added 0 classes and 0 folders.
+[2017.05.27-04.37.17:770][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.05.27-04.37.17:847][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.05.27-04.37.17:925][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.27-04.37.17:998][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.27-04.37.18:102][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.05.27-04.37.18:102][  0]LogLoad: (Engine Initialization) Total time: 35.08 seconds
+[2017.05.27-04.37.18:102][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.17 seconds
+[2017.05.27-04.37.18:102][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.05.27-04.37.18:120][  0]LogOcInput: OculusInput pre-init called
+[2017.05.27-04.37.18:142][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.15.0
+[2017.05.27-04.37.18:142][  0]LogSteamVRController: Controller role for device 1 is 1 (invalid=0, left=1, right=2).
+[2017.05.27-04.37.18:142][  0]LogSteamVRController:Warning: Controller device 1 is being assigned to its prefered role 'left'.
+[2017.05.27-04.37.18:142][  0]LogSteamVRController: Controller device 1 is being assigned unreal hand 0 (left=0, right=1).
+[2017.05.27-04.37.18:142][  0]LogSteamVRController: Controller role for device 2 is 2 (invalid=0, left=1, right=2).
+[2017.05.27-04.37.18:143][  0]LogSteamVRController: Putting controller 2 on the right hand because there is already a controller for the left.
+[2017.05.27-04.37.18:143][  0]LogSteamVRController: Controller device 2 is being assigned unreal hand 1 (left=0, right=1).
+[2017.05.27-04.37.18:219][  0]LogContentStreaming: Texture pool size now 2500 MB
+[2017.05.27-04.37.18:224][  0]LogSlate: Took 0.001906 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.27-04.37.18:230][  0]LogSlate: Took 0.000501 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.27-04.37.18:241][  0]LogSlate: Took 0.000351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.27-04.37.18:453][  0]LogSlate: Took 0.000355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.27-04.37.18:538][  0]LogRenderer: Reallocating scene render targets to support 1232x684 NumSamples 4 (Frame:2).
+[2017.05.27-04.37.18:694][  2]LogAssetRegistry: Asset discovery search completed in 19.3431 seconds
+[2017.05.27-04.37.18:694][  2]LogCollectionManager: Rebuilt the object cache for 1 collections in 0.000009 seconds (found 0 objects)
+[2017.05.27-04.37.18:694][  2]LogCollectionManager: Fixed up redirectors for 1 collections in 0.000025 seconds (updated 0 objects)
+[2017.05.27-04.38.17:296][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel3)
+[2017.05.27-04.39.10:089][745]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.27-04.39.10:168][745]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.05.27-05.26.55:571][562]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Toxic_barrel.fbx)
+[2017.05.27-05.26.55:597][562]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.27-05.26.55:597][562]LogFbx: ItemName: Geometry, ItemCount : 3
+[2017.05.27-05.26.55:597][562]LogFbx: ItemName: Model, ItemCount : 3
+[2017.05.27-05.26.55:606][562]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Toxic_barrel.fbx
+[2017.05.27-05.26.55:619][562]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-05.27.02:248][562]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Toxic_barrel.fbx
+[2017.05.27-05.27.02:261][562]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-05.27.02:268][562]LogFbx:Warning: Triangulating static mesh Cylinder.001
+[2017.05.27-05.27.02:395][562]LogStaticMesh: Building static mesh Toxic_barrel_Cylinder_001...
+[2017.05.27-05.27.02:416][562]LogStaticMesh: Built static mesh [0.02s] /Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cylinder_001.Toxic_barrel_Cylinder_001
+[2017.05.27-05.27.02:503][562]LogFbx:Warning: Triangulating static mesh Cube
+[2017.05.27-05.27.02:563][562]LogStaticMesh: Building static mesh Toxic_barrel_Cube...
+[2017.05.27-05.27.02:567][562]LogStaticMesh: Built static mesh [0.00s] /Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cube.Toxic_barrel_Cube
+[2017.05.27-05.27.02:569][562]LogStaticMesh:Warning: Toxic_barrel_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.05.27-05.27.02:580][562]LogFbx:Warning: Triangulating static mesh Cylinder
+[2017.05.27-05.27.02:642][562]LogStaticMesh: Building static mesh Toxic_barrel_Cylinder...
+[2017.05.27-05.27.02:649][562]LogStaticMesh: Built static mesh [0.01s] /Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cylinder.Toxic_barrel_Cylinder
+[2017.05.27-05.27.02:650][562]LogStaticMesh:Warning: Toxic_barrel_Cylinder has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.05.27-05.27.02:660][562]FBXImport:Warning: Warning Toxic_barrel_Cube has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.05.27-05.27.02:660][562]FBXImport:Warning: Warning Toxic_barrel_Cylinder has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.05.27-05.27.05:899][771]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CustomMaps/UGC932402093/de_Nuke' took 0.026
+[2017.05.27-05.27.05:902][771]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cylinder_001] ([1] browsable assets)...
+[2017.05.27-05.27.05:918][771]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cylinder_001.Toxic_barrel_Cylinder_001]
+[2017.05.27-05.27.05:918][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cylinder_001]
+[2017.05.27-05.27.05:950][771]LogSavePackage: Save=29.44ms
+[2017.05.27-05.27.05:950][771]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Toxic_barrel_Cylinder_001_Auto133BA48FC48F4B372B6A89788F56097FF.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cylinder_001_Auto1.uasset'
+[2017.05.27-05.27.05:952][771]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cylinder_001_Auto1.uasset
+[2017.05.27-05.27.05:953][771]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cube] ([1] browsable assets)...
+[2017.05.27-05.27.05:971][771]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cube.Toxic_barrel_Cube]
+[2017.05.27-05.27.05:971][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cube]
+[2017.05.27-05.27.05:991][771]LogSavePackage: Save=17.28ms
+[2017.05.27-05.27.05:991][771]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Toxic_barrel_Cube_Auto16F974B40405433F83AA93380479ADFEA.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cube_Auto1.uasset'
+[2017.05.27-05.27.05:992][771]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cube_Auto1.uasset
+[2017.05.27-05.27.05:993][771]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cylinder] ([1] browsable assets)...
+[2017.05.27-05.27.06:008][771]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cylinder.Toxic_barrel_Cylinder]
+[2017.05.27-05.27.06:008][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cylinder]
+[2017.05.27-05.27.06:030][771]LogSavePackage: Save=16.62ms
+[2017.05.27-05.27.06:030][771]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Toxic_barrel_Cylinder_Auto11442175D4B5CE7F1D262F7B39AE7B689.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cylinder_Auto1.uasset'
+[2017.05.27-05.27.06:033][771]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Props/Toxic_barrel_Cylinder_Auto1.uasset
+[2017.05.27-05.27.06:033][771]LogFileHelpers: Auto-saving content packages took 0.133
+[2017.05.27-05.27.13:416][270]LogActorFactory: Actor Factory created Toxic_Barrel
+[2017.05.27-05.27.14:074][305]LogActorFactory: Actor Factory created Toxic_Barrel
+[2017.05.27-05.27.15:572][417]Cmd: TRANSACTION UNDO
+[2017.05.27-05.27.15:572][417]LogEditorTransaction: Undo Create Actors
+[2017.05.27-05.27.15:991][417]LogSlate: Took 0.000408 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.27-05.27.21:838][806]LogActorFactory: Actor Factory created Toxic_barrel_Cylinder
+[2017.05.27-05.27.23:233][898]LogActorFactory: Actor Factory created Toxic_barrel_Cylinder
+[2017.05.27-05.27.25:290][ 50]Cmd: TRANSACTION UNDO
+[2017.05.27-05.27.25:290][ 50]LogEditorTransaction: Undo Create Actors
+[2017.05.27-05.27.26:467][100]Cmd: TRANSACTION UNDO
+[2017.05.27-05.27.26:467][100]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.27-05.27.48:154][683]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Toxic_barrel.fbx)
+[2017.05.27-05.27.48:165][683]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.27-05.27.48:165][683]LogFbx: ItemName: Geometry, ItemCount : 3
+[2017.05.27-05.27.48:165][683]LogFbx: ItemName: Model, ItemCount : 3
+[2017.05.27-05.27.48:175][683]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Toxic_barrel.fbx
+[2017.05.27-05.27.48:187][683]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-05.28.02:867][683]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Toxic_barrel.fbx
+[2017.05.27-05.28.02:880][683]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-05.28.02:889][683]LogFbx:Warning: Triangulating static mesh Cylinder.001
+[2017.05.27-05.28.03:025][683]LogFbx:Warning: Triangulating static mesh Cube
+[2017.05.27-05.28.03:091][683]LogFbx:Warning: Triangulating static mesh Cylinder
+[2017.05.27-05.28.03:146][683]LogStaticMesh: Building static mesh Toxic_barrel...
+[2017.05.27-05.28.03:160][683]LogStaticMesh: Built static mesh [0.01s] /Game/CustomMaps/UGC932402093/Props/Toxic_Barrel.Toxic_barrel
+[2017.05.27-05.28.03:165][683]LogStaticMesh:Warning: Toxic_barrel has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.05.27-05.28.03:179][683]FBXImport:Warning: Warning Toxic_barrel has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.05.27-05.28.05:469][888]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Toxic_Barrel3)
+[2017.05.27-05.28.06:380][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel3)
+[2017.05.27-05.28.09:482][172]Cmd: TRANSACTION UNDO
+[2017.05.27-05.28.09:482][172]LogEditorTransaction: Undo Move Actors
+[2017.05.27-05.28.15:984][669]Cmd: TRANSACTION UNDO
+[2017.05.27-05.28.15:984][669]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.27-05.28.17:189][753]Cmd: TRANSACTION UNDO
+[2017.05.27-05.28.17:189][753]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.05.27-05.28.17:418][772]Cmd: TRANSACTION UNDO
+[2017.05.27-05.28.17:418][772]LogEditorTransaction: Undo Edit Combine Meshes
+[2017.05.27-05.28.20:969][130]Cmd: TRANSACTION REDO
+[2017.05.27-05.28.20:969][130]LogEditorTransaction: Redo Edit Combine Meshes
+[2017.05.27-05.28.21:212][143]Cmd: TRANSACTION REDO
+[2017.05.27-05.28.21:212][143]LogEditorTransaction: Redo Clicking on Actors (context menu)
+[2017.05.27-05.28.21:388][145]Cmd: TRANSACTION REDO
+[2017.05.27-05.28.21:388][145]LogEditorTransaction: Redo Clicking on Actors
+[2017.05.27-05.28.21:576][157]Cmd: TRANSACTION REDO
+[2017.05.27-05.28.21:576][157]LogEditorTransaction: Redo Move Actors
+[2017.05.27-05.28.27:554][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel4)
+[2017.05.27-05.37.07:779][887]LogSavePackage: Save=1075.27ms
+[2017.05.27-05.37.07:779][887]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_Auto24F43F00D420CE238730014BADC20BEEE.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto2.umap'
+[2017.05.27-05.37.07:781][887]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto2.umap
+[2017.05.27-05.37.07:786][887]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CustomMaps/UGC932402093/de_Nuke' took 1.117
+[2017.05.27-05.37.07:786][887]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.117
+[2017.05.27-05.37.07:789][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CustomMaps/UGC932402093/Props/Toxic_Barrel] ([1] browsable assets)...
+[2017.05.27-05.37.07:803][887]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/CustomMaps/UGC932402093/Props/Toxic_Barrel.Toxic_barrel]
+[2017.05.27-05.37.07:803][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMaps/UGC932402093/Props/Toxic_Barrel]
+[2017.05.27-05.37.07:824][887]LogSavePackage: Save=13.36ms
+[2017.05.27-05.37.07:824][887]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Toxic_Barrel_Auto219B237194F0373B7D14D68B0E651B022.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Props/Toxic_Barrel_Auto2.uasset'
+[2017.05.27-05.37.07:826][887]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Props/Toxic_Barrel_Auto2.uasset
+[2017.05.27-05.37.07:826][887]LogFileHelpers: Auto-saving content packages took 0.039
+[2017.05.27-05.57.15:250][816]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel3)
+[2017.05.27-05.57.21:179][307]Cmd: DELETE
+[2017.05.27-05.57.21:179][307]Cmd: ACTOR DELETE
+[2017.05.27-05.57.21:210][307]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.27-05.57.21:227][307]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2017.05.27-05.57.23:927][622]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.23:927][622]LogEditorTransaction: Undo Delete Actors
+[2017.05.27-05.57.28:008][970]LogEditorViewport: Clicking on Actor (LMB): Pavlov_Spawn (Pavlov_Spawn20)
+[2017.05.27-05.57.30:116][153]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.27-05.57.34:845][585]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.27-05.57.37:856][860]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.37:856][860]LogEditorTransaction: Undo Snap Actors To Floor
+[2017.05.27-05.57.38:350][880]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.38:350][880]LogEditorTransaction: Undo Move Actors
+[2017.05.27-05.57.40:492][ 55]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.40:492][ 55]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.27-05.57.41:251][103]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.41:251][103]LogEditorTransaction: Undo Snap Actors To Floor
+[2017.05.27-05.57.43:733][322]LogEditorViewport: Clicking on Actor (LMB): Pavlov_Spawn (Pavlov_Spawn20)
+[2017.05.27-05.57.44:969][422]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.44:969][422]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.27-05.57.45:257][429]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.45:257][429]LogEditorTransaction: Undo Move Actors
+[2017.05.27-05.57.45:526][442]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.45:526][442]LogEditorTransaction: Undo Snap Actors To Floor
+[2017.05.27-05.57.45:781][461]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.45:781][461]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.27-05.57.46:022][473]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.46:022][473]LogEditorTransaction: Undo Snap Actors To Floor
+[2017.05.27-05.57.46:311][496]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.46:311][496]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.27-05.57.46:681][497]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.46:681][497]LogEditorTransaction: Undo Select Brush Surface
+[2017.05.27-05.57.47:070][498]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.47:070][498]LogEditorTransaction: Undo Move Actors
+[2017.05.27-05.57.47:586][535]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.47:586][535]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.27-05.57.48:219][587]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.48:219][587]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.05.27-05.57.49:138][687]Cmd: TRANSACTION UNDO
+[2017.05.27-05.57.49:138][687]LogEditorTransaction: Undo Edit Combine Meshes
+[2017.05.27-05.57.53:227][110]LogEditorViewport: Clicking on Actor (LMB): Pavlov_Spawn (Pavlov_Spawn20)
+[2017.05.27-05.57.55:051][259]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.05.27-05.57.58:812][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel3)
+[2017.05.27-05.58.03:509][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel7)
+[2017.05.27-05.58.06:938][247]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Toxic_Barrel8)
+[2017.05.27-05.58.10:813][542]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel7)
+[2017.05.27-05.58.11:371][582]Cmd: DELETE
+[2017.05.27-05.58.11:371][582]Cmd: ACTOR DELETE
+[2017.05.27-05.58.11:382][582]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.27-05.58.11:401][582]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2017.05.27-05.58.12:798][735]Cmd: TRANSACTION UNDO
+[2017.05.27-05.58.12:798][735]LogEditorTransaction: Undo Delete Actors
+[2017.05.27-05.58.18:262][138]Cmd: DELETE
+[2017.05.27-05.58.18:262][138]Cmd: ACTOR DELETE
+[2017.05.27-05.58.18:272][138]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.27-05.58.18:295][138]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2017.05.27-05.58.20:192][347]Cmd: TRANSACTION UNDO
+[2017.05.27-05.58.20:192][347]LogEditorTransaction: Undo Delete Actors
+[2017.05.27-05.58.40:345][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel8)
+[2017.05.27-05.58.41:842][ 30]Cmd: DELETE
+[2017.05.27-05.58.41:842][ 30]Cmd: ACTOR DELETE
+[2017.05.27-05.58.41:854][ 30]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.27-05.58.41:873][ 30]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2017.05.27-05.58.42:345][ 75]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel7)
+[2017.05.27-05.58.47:169][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel)
+[2017.05.27-05.58.47:794][455]Cmd: DELETE
+[2017.05.27-05.58.47:794][455]Cmd: ACTOR DELETE
+[2017.05.27-05.58.47:804][455]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.27-05.58.47:826][455]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2017.05.27-05.58.48:150][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel2)
+[2017.05.27-05.58.48:280][490]Cmd: DELETE
+[2017.05.27-05.58.48:280][490]Cmd: ACTOR DELETE
+[2017.05.27-05.58.48:290][490]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.27-05.58.48:308][490]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2017.05.27-05.58.49:135][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel7)
+[2017.05.27-05.58.49:952][626]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Toxic_Barrel8)
+[2017.05.27-05.59.00:619][394]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel8)
+[2017.05.27-05.59.04:486][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel3)
+[2017.05.27-05.59.28:556][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Barrel4)
+[2017.05.27-05.59.39:341][312]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.27-05.59.39:378][312]LogSavePackage: Save=1336.28ms
+[2017.05.27-05.59.39:378][312]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke8E0C543644C9EC7475272BA4CA681A09.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke.umap'
+[2017.05.27-05.59.39:391][312]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke.umap
+[2017.05.27-05.59.39:448][312]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMaps/UGC932402093/de_Nuke_BuiltData" FILE="F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke_BuiltData.uasset" SILENT=true
+[2017.05.27-05.59.40:802][312]LogSavePackage: Save=1215.64ms
+[2017.05.27-05.59.40:802][312]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_BuiltData63B6DCD043B3574E9792EAA2E24B554E.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke_BuiltData.uasset'
+[2017.05.27-05.59.40:825][312]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke_BuiltData.uasset
+[2017.05.27-05.59.45:087][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Box1)
+[2017.05.27-06.17.11:520][272]LogGeometryMode:Warning: Unable to find BoxBrush24 Brush(s) in new BSP
+[2017.05.27-06.17.11:520][272]LogGeometryMode:Warning: Unable to find all previously selected geometry data, resetting selection
+[2017.05.27-06.17.44:121][961]LogSavePackage: Save=1522.72ms
+[2017.05.27-06.17.44:121][961]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_NukeB7ED389E455600B033EAED8FC8DCD8F6.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke.umap'
+[2017.05.27-06.17.44:125][961]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke.umap
+[2017.05.27-06.17.44:176][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMaps/UGC932402093/de_Nuke_BuiltData" FILE="F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke_BuiltData.uasset" SILENT=true
+[2017.05.27-06.17.45:172][961]LogSavePackage: Save=967.37ms
+[2017.05.27-06.17.45:173][961]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_BuiltData8B51349840E788C913A787901941F31A.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke_BuiltData.uasset'
+[2017.05.27-06.17.45:176][961]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke_BuiltData.uasset
+[2017.05.27-06.21.44:564][233]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Toxic_barrel.fbx)
+[2017.05.27-06.21.44:575][233]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.27-06.21.44:575][233]LogFbx: ItemName: Geometry, ItemCount : 3
+[2017.05.27-06.21.44:575][233]LogFbx: ItemName: Model, ItemCount : 3
+[2017.05.27-06.21.44:587][233]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Toxic_barrel.fbx
+[2017.05.27-06.21.44:602][233]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-06.21.49:184][233]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Toxic_barrel.fbx
+[2017.05.27-06.21.49:196][233]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-06.21.49:202][233]LogFbx:Warning: Triangulating static mesh Cylinder.001
+[2017.05.27-06.21.49:312][233]LogFbx:Warning: Triangulating static mesh Cube
+[2017.05.27-06.21.49:371][233]LogFbx:Warning: Triangulating static mesh Cylinder
+[2017.05.27-06.21.49:426][233]LogStaticMesh: Building static mesh Toxic_barrel...
+[2017.05.27-06.21.49:469][233]LogStaticMesh: Built static mesh [0.04s] /Game/CustomMaps/UGC932402093/Props/Toxic_Barrel.Toxic_barrel
+[2017.05.27-06.22.39:327][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Toxic_Box1)
+[2017.05.27-06.24.45:598][ 47]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (small_crate1)
+[2017.05.27-06.26.04:263][106]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.05.27-06.27.47:328][179]LogSavePackage: Save=1308.64ms
+[2017.05.27-06.27.47:328][179]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_Auto37B3068774EBF95DD6E8D06BA11BCA280.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto3.umap'
+[2017.05.27-06.27.47:330][179]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto3.umap
+[2017.05.27-06.27.47:332][179]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CustomMaps/UGC932402093/de_Nuke' took 1.366
+[2017.05.27-06.27.47:333][179]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.366
+[2017.05.27-06.27.47:335][179]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CustomMaps/UGC932402093/Props/Toxic_Barrel] ([1] browsable assets)...
+[2017.05.27-06.27.47:350][179]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/CustomMaps/UGC932402093/Props/Toxic_Barrel.Toxic_barrel]
+[2017.05.27-06.27.47:350][179]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMaps/UGC932402093/Props/Toxic_Barrel]
+[2017.05.27-06.27.47:380][179]LogSavePackage: Save=19.66ms
+[2017.05.27-06.27.47:380][179]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Toxic_Barrel_Auto3DCCF941044FD335A1F7450920F98A548.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Props/Toxic_Barrel_Auto3.uasset'
+[2017.05.27-06.27.47:382][179]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Props/Toxic_Barrel_Auto3.uasset
+[2017.05.27-06.27.47:382][179]LogFileHelpers: Auto-saving content packages took 0.048
+[2017.05.27-07.18.54:931][702]LogEditorFactories: Performing atomic reimport of [F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/small_crate_cylTop.fbx]
+[2017.05.27-07.18.54:980][702]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/small_crate_cylTop.fbx
+[2017.05.27-07.18.54:995][702]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-07.18.55:015][702]LogFbx:Warning: Triangulating static mesh Cube
+[2017.05.27-07.18.55:485][702]LogStaticMesh: Building static mesh small_crate1...
+[2017.05.27-07.18.55:659][702]LogStaticMesh: Built static mesh [0.17s] /Game/CustomMaps/UGC932402093/Crates/small_crate1.small_crate1
+[2017.05.27-07.18.55:691][702]LogEditorFactories: -- imported successfully
+[2017.05.27-07.18.55:692][702]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.27-07.19.06:171][513]LogSavePackage: Save=1309.20ms
+[2017.05.27-07.19.06:171][513]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_Auto474B2836E4368879E368B5187C5D1C512.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto4.umap'
+[2017.05.27-07.19.06:173][513]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto4.umap
+[2017.05.27-07.19.06:178][513]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CustomMaps/UGC932402093/de_Nuke' took 1.360
+[2017.05.27-07.19.06:178][513]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.360
+[2017.05.27-07.19.06:181][513]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CustomMaps/UGC932402093/Crates/small_crate1] ([1] browsable assets)...
+[2017.05.27-07.19.06:194][513]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/CustomMaps/UGC932402093/Crates/small_crate1.small_crate1]
+[2017.05.27-07.19.06:194][513]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMaps/UGC932402093/Crates/small_crate1]
+[2017.05.27-07.19.06:219][513]LogSavePackage: Save=15.98ms
+[2017.05.27-07.19.06:219][513]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/small_crate1_Auto4E78F29954DFF4509666E5C9C9224FB58.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Crates/small_crate1_Auto4.uasset'
+[2017.05.27-07.19.06:223][513]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Crates/small_crate1_Auto4.uasset
+[2017.05.27-07.19.06:223][513]LogFileHelpers: Auto-saving content packages took 0.043
+[2017.05.27-07.19.14:769][285]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.27-07.19.36:056][177]Cmd: TRANSACTION UNDO
+[2017.05.27-07.19.36:056][177]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.27-07.19.38:319][369]Cmd: TRANSACTION UNDO
+[2017.05.27-07.19.38:319][369]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.27-07.19.40:002][513]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.27-07.19.42:403][728]Cmd: TRANSACTION UNDO
+[2017.05.27-07.19.42:403][728]LogEditorTransaction: Undo Snap Actors To Floor
+[2017.05.27-07.20.26:538][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (small_crate1)
+[2017.05.27-07.20.30:797][928]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.27-07.20.35:815][381]Cmd: TRANSACTION UNDO
+[2017.05.27-07.20.35:815][381]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.27-07.20.44:995][156]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (small_crate3)
+[2017.05.27-07.20.49:005][487]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (small_crate27)
+[2017.05.27-07.20.50:213][582]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (small_crate6)
+[2017.05.27-07.20.52:533][764]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (small_crate28)
+[2017.05.27-07.20.53:112][784]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (small_crate11)
+[2017.05.27-07.21.57:020][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (small_crate26)
+[2017.05.27-07.22.04:091][161]Cmd: TRANSACTION UNDO
+[2017.05.27-07.22.04:091][161]LogEditorTransaction: Undo Snap Actors To Floor
+[2017.05.27-07.22.04:530][189]Cmd: TRANSACTION UNDO
+[2017.05.27-07.22.04:530][189]LogEditorTransaction: Undo Move Actors
+[2017.05.27-07.22.04:973][227]Cmd: TRANSACTION UNDO
+[2017.05.27-07.22.04:973][227]LogEditorTransaction: Undo Snap Actors To Floor
+[2017.05.27-07.22.05:510][273]Cmd: TRANSACTION UNDO
+[2017.05.27-07.22.05:510][273]LogEditorTransaction: Undo Move Actors
+[2017.05.27-07.22.05:984][274]Cmd: TRANSACTION UNDO
+[2017.05.27-07.22.05:984][274]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.27-07.22.07:283][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (small_crate26)
+[2017.05.27-07.22.09:145][570]Cmd: TRANSACTION UNDO
+[2017.05.27-07.22.09:145][570]LogEditorTransaction: Undo Move Actors
+[2017.05.27-07.22.23:612][701]LogSavePackage: Save=1390.00ms
+[2017.05.27-07.22.23:612][701]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke185526E841DECA94651E44B7A909954A.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke.umap'
+[2017.05.27-07.22.23:622][701]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke.umap
+[2017.05.27-07.22.23:666][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMaps/UGC932402093/de_Nuke_BuiltData" FILE="F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke_BuiltData.uasset" SILENT=true
+[2017.05.27-07.22.24:665][701]LogSavePackage: Save=971.34ms
+[2017.05.27-07.22.24:665][701]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_BuiltDataA687544843F188DD294A9A900D9C3A19.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke_BuiltData.uasset'
+[2017.05.27-07.22.24:668][701]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke_BuiltData.uasset
+[2017.05.27-07.22.31:555][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Midsize_crate_noridge10)
+[2017.05.27-07.24.59:526][268]LogFbx:Warning: FBX version number for this version of the FBX SDK is 7.5.0
+
+
+[2017.05.27-08.10.16:459][ 16]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx)
+[2017.05.27-08.10.16:471][ 16]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.27-08.10.16:471][ 16]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.27-08.10.16:471][ 16]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.27-08.10.16:471][ 16]LogFbx: ItemName: Model, ItemCount : 1
+[2017.05.27-08.10.16:471][ 16]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.27-08.10.16:471][ 16]LogFbx: ItemName: Material, ItemCount : 1
+[2017.05.27-08.10.16:482][ 16]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx
+[2017.05.27-08.10.16:497][ 16]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.10.20:960][ 16]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx
+[2017.05.27-08.10.20:974][ 16]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.10.20:987][ 16]LogLinker: Can't find file '/Game/CustomMaps/UGC932402093/Crates/WorldGridMaterial'
+[2017.05.27-08.10.20:988][ 16]LogLinker: Can't find file '/Game/CustomMaps/UGC932402093/Crates/WorldGridMaterial'
+[2017.05.27-08.10.20:996][ 16]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
+[2017.05.27-08.10.20:998][ 16]LogTemp:Display: Added material ShaderMap 0x000001FB3E543200 with Material 0x000001FB3E53F100 to ShaderMapsBeingCompiled
+[2017.05.27-08.10.21:043][ 16]LogTemp:Display: Kicking off shader compilation for WorldGridMaterial, GameThreadShaderMap 0x000001FB3E543200
+[2017.05.27-08.10.21:149][ 16]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.10.21:152][ 16]LogStaticMesh: Built static mesh [0.00s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.10.21:248][ 16]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.27-08.10.27:326][350]LogTemp:Display: Finished compile of shader map 0x000001FB3E543200
+[2017.05.27-08.10.27:326][350]LogTemp:Display: Shader map WorldGridMaterial complete, GameThreadShaderMap 0x000001FB3E543200, marking material WorldGridMaterial as finished
+[2017.05.27-08.10.27:326][350]LogTemp:Display: Marking material as finished 0x000001FB3E53F100
+[2017.05.27-08.10.36:906][118]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.27-08.10.41:020][332]LogSavePackage: Save=1343.81ms
+[2017.05.27-08.10.41:020][332]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_Auto5726E805042D34A7B9D60468D497E2D01.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto5.umap'
+[2017.05.27-08.10.41:023][332]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto5.umap
+[2017.05.27-08.10.41:025][332]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CustomMaps/UGC932402093/de_Nuke' took 1.399
+[2017.05.27-08.10.41:025][332]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.399
+[2017.05.27-08.10.41:028][332]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge] ([1] browsable assets)...
+[2017.05.27-08.10.41:047][332]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge]
+[2017.05.27-08.10.41:047][332]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge]
+[2017.05.27-08.10.41:074][332]LogSavePackage: Save=15.52ms
+[2017.05.27-08.10.41:074][332]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Midsize_crate_noridge_Auto5444FA3024BE3CF05D420EF9A7CA75D39.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge_Auto5.uasset'
+[2017.05.27-08.10.41:076][332]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge_Auto5.uasset
+[2017.05.27-08.10.41:077][332]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CustomMaps/UGC932402093/Crates/WorldGridMaterial] ([1] browsable assets)...
+[2017.05.27-08.10.41:092][332]OBJ SavePackage:     Rendered thumbnail for [Material /Game/CustomMaps/UGC932402093/Crates/WorldGridMaterial.WorldGridMaterial]
+[2017.05.27-08.10.41:092][332]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMaps/UGC932402093/Crates/WorldGridMaterial]
+[2017.05.27-08.10.41:109][332]LogSavePackage: Save=14.76ms
+[2017.05.27-08.10.41:109][332]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/WorldGridMaterial_Auto522B450B64414209E71832FB202721FBD.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Crates/WorldGridMaterial_Auto5.uasset'
+[2017.05.27-08.10.41:111][332]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Crates/WorldGridMaterial_Auto5.uasset
+[2017.05.27-08.10.41:111][332]LogFileHelpers: Auto-saving content packages took 0.084
+[2017.05.27-08.10.42:365][436]Cmd: TRANSACTION UNDO
+[2017.05.27-08.10.42:366][436]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.27-08.10.45:578][662]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.27-08.10.53:526][285]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (small_crate26)
+[2017.05.27-08.11.11:041][679]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Midsize_crate_noridge13)
+[2017.05.27-08.11.33:022][753]LogEditorFactories: Performing atomic reimport of [F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx]
+[2017.05.27-08.11.33:069][753]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx
+[2017.05.27-08.11.33:083][753]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.11.33:108][753]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.11.33:114][753]LogStaticMesh: Built static mesh [0.01s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.11.33:129][753]LogEditorFactories: -- imported successfully
+[2017.05.27-08.11.33:131][753]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.27-08.13.04:279][712]LogEditorFactories: Performing atomic reimport of [F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx]
+[2017.05.27-08.13.04:327][712]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx
+[2017.05.27-08.13.04:341][712]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.13.04:367][712]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.13.04:370][712]LogStaticMesh: Built static mesh [0.00s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.13.04:387][712]LogEditorFactories: -- imported successfully
+[2017.05.27-08.13.04:388][712]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.27-08.13.07:194][923]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.27-08.13.33:895][884]LogEditorFactories: Performing atomic reimport of [F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx]
+[2017.05.27-08.13.33:939][884]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx
+[2017.05.27-08.13.33:954][884]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.13.33:979][884]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.13.33:985][884]LogStaticMesh: Built static mesh [0.01s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.13.33:999][884]LogEditorFactories: -- imported successfully
+[2017.05.27-08.13.34:000][884]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.27-08.14.31:915][448]LogEditorFactories: Performing atomic reimport of [F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx]
+[2017.05.27-08.14.31:959][448]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx
+[2017.05.27-08.14.31:976][448]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.14.32:002][448]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.14.32:006][448]LogStaticMesh: Built static mesh [0.00s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.14.32:021][448]LogEditorFactories: -- imported successfully
+[2017.05.27-08.14.32:022][448]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.27-08.15.43:946][814]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx)
+[2017.05.27-08.15.43:954][814]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.27-08.15.43:955][814]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.27-08.15.43:955][814]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.27-08.15.43:955][814]LogFbx: ItemName: Model, ItemCount : 1
+[2017.05.27-08.15.43:955][814]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.27-08.15.43:955][814]LogFbx: ItemName: Material, ItemCount : 1
+[2017.05.27-08.15.43:964][814]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx
+[2017.05.27-08.15.43:980][814]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.15.47:998][814]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx
+[2017.05.27-08.15.48:011][814]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.15.48:015][814]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.15.48:018][814]LogStaticMesh: Built static mesh [0.00s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.15.48:025][814]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.27-08.16.07:117][ 71]LogRenderer: Reallocating scene render targets to support 1432x924 NumSamples 4 (Frame:90263).
+[2017.05.27-08.17.24:692][436]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Midsize_crate_noridge5)
+[2017.05.27-08.17.26:857][599]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Midsize_crate_noridge13)
+[2017.05.27-08.17.28:588][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Midsize_crate_noridge13)
+[2017.05.27-08.17.36:651][992]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx)
+[2017.05.27-08.17.36:666][992]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.27-08.17.36:666][992]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.27-08.17.36:666][992]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.27-08.17.36:666][992]LogFbx: ItemName: Model, ItemCount : 1
+[2017.05.27-08.17.36:666][992]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.27-08.17.36:666][992]LogFbx: ItemName: Material, ItemCount : 1
+[2017.05.27-08.17.36:677][992]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx
+[2017.05.27-08.17.36:688][992]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.17.43:474][992]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx
+[2017.05.27-08.17.43:485][992]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.17.43:492][992]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.17.43:494][992]LogStaticMesh: Built static mesh [0.00s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.17.43:500][992]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.27-08.19.17:327][417]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx)
+[2017.05.27-08.19.17:335][417]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.27-08.19.17:335][417]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.05.27-08.19.17:335][417]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.05.27-08.19.17:335][417]LogFbx: ItemName: Model, ItemCount : 1
+[2017.05.27-08.19.17:335][417]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.27-08.19.17:335][417]LogFbx: ItemName: Material, ItemCount : 1
+[2017.05.27-08.19.17:348][417]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx
+[2017.05.27-08.19.17:361][417]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.19.22:599][417]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Placeholder FBXs/Midsize_crate_noridge.fbx
+[2017.05.27-08.19.22:614][417]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.19.22:618][417]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.19.22:621][417]LogStaticMesh: Built static mesh [0.00s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.19.22:629][417]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.05.27-08.19.46:450][156]LogActorFactory: Actor Factory created Midsize_crate_noridge
+[2017.05.27-08.19.47:402][222]LogActorFactory: Actor Factory created Midsize_crate_noridge
+[2017.05.27-08.19.48:124][269]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.27-08.19.49:688][396]Cmd: TRANSACTION UNDO
+[2017.05.27-08.19.49:688][396]LogEditorTransaction: Undo Create Actors
+[2017.05.27-08.20.43:573][ 31]LogSavePackage: Save=1424.42ms
+[2017.05.27-08.20.43:573][ 31]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_Auto62A0FDBAB4AF24FFA3BD7D0AC00A1B6A9.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto6.umap'
+[2017.05.27-08.20.43:576][ 31]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto6.umap
+[2017.05.27-08.20.43:581][ 31]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CustomMaps/UGC932402093/de_Nuke' took 1.486
+[2017.05.27-08.20.43:581][ 31]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.486
+[2017.05.27-08.20.43:584][ 31]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge] ([1] browsable assets)...
+[2017.05.27-08.20.43:601][ 31]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge]
+[2017.05.27-08.20.43:601][ 31]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge]
+[2017.05.27-08.20.43:629][ 31]LogSavePackage: Save=18.31ms
+[2017.05.27-08.20.43:629][ 31]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Midsize_crate_noridge_Auto6795DAC4842E1BD01A93BF79D6DBF7A94.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge_Auto6.uasset'
+[2017.05.27-08.20.43:633][ 31]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge_Auto6.uasset
+[2017.05.27-08.20.43:633][ 31]LogFileHelpers: Auto-saving content packages took 0.050
+[2017.05.27-08.21.45:266][776]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx)
+[2017.05.27-08.21.45:277][776]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.27-08.21.45:277][776]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.27-08.21.45:277][776]LogFbx: ItemName: Model, ItemCount : 1
+[2017.05.27-08.21.45:287][776]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx
+[2017.05.27-08.21.45:301][776]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.21.50:154][776]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx
+[2017.05.27-08.21.50:167][776]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.21.50:173][776]LogFbx:Warning: Triangulating static mesh Cube
+[2017.05.27-08.21.50:606][776]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.21.50:643][776]LogStaticMesh: Built static mesh [0.04s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.21.50:649][776]LogStaticMesh:Warning: Midsize_crate_noridge has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.05.27-08.21.50:668][776]FBXImport:Warning: Warning Midsize_crate_noridge has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.05.27-08.22.23:027][416]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx)
+[2017.05.27-08.22.23:038][416]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.27-08.22.23:038][416]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.27-08.22.23:038][416]LogFbx: ItemName: Model, ItemCount : 1
+[2017.05.27-08.22.23:047][416]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx
+[2017.05.27-08.22.23:061][416]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.22.27:193][416]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx
+[2017.05.27-08.22.27:207][416]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.22.27:211][416]LogFbx:Warning: Triangulating static mesh Cube
+[2017.05.27-08.22.27:628][416]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.22.27:752][416]LogStaticMesh: Built static mesh [0.12s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.24.52:766][430]LogEditorFactories: Performing atomic reimport of [F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx]
+[2017.05.27-08.24.52:812][430]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx
+[2017.05.27-08.24.52:829][430]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.24.52:833][430]LogFbx:Warning: Triangulating static mesh Cube
+[2017.05.27-08.24.53:274][430]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.24.53:339][430]LogStaticMesh: Built static mesh [0.07s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.24.53:371][430]LogEditorFactories: -- imported successfully
+[2017.05.27-08.25.08:369][887]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx)
+[2017.05.27-08.25.08:381][887]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.05.27-08.25.08:381][887]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.05.27-08.25.08:381][887]LogFbx: ItemName: Model, ItemCount : 1
+[2017.05.27-08.25.08:391][887]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx
+[2017.05.27-08.25.08:406][887]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.25.11:030][887]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx
+[2017.05.27-08.25.11:046][887]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.25.11:052][887]LogFbx:Warning: Triangulating static mesh Cube
+[2017.05.27-08.25.11:494][887]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.25.11:547][887]LogStaticMesh: Built static mesh [0.05s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.26.08:619][267]LogEditorFactories: Performing atomic reimport of [F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx]
+[2017.05.27-08.26.08:674][267]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx
+[2017.05.27-08.26.08:690][267]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.26.08:696][267]LogFbx:Warning: Triangulating static mesh Cube
+[2017.05.27-08.26.09:126][267]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.26.09:190][267]LogStaticMesh: Built static mesh [0.06s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.26.09:218][267]LogEditorFactories: -- imported successfully
+[2017.05.27-08.26.47:816][ 17]LogEditorFactories: Performing atomic reimport of [F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx]
+[2017.05.27-08.26.47:862][ 17]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx
+[2017.05.27-08.26.47:874][ 17]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.26.47:881][ 17]LogFbx:Warning: Triangulating static mesh Cube
+[2017.05.27-08.26.48:409][ 17]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.26.48:467][ 17]LogStaticMesh: Built static mesh [0.06s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.26.48:498][ 17]LogEditorFactories: -- imported successfully
+[2017.05.27-08.27.39:795][719]LogEditorFactories: Performing atomic reimport of [F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx]
+[2017.05.27-08.27.39:842][719]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx
+[2017.05.27-08.27.39:856][719]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.27.39:863][719]LogFbx:Warning: Triangulating static mesh Cube
+[2017.05.27-08.27.40:337][719]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.27.40:391][719]LogStaticMesh: Built static mesh [0.05s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.27.40:418][719]LogEditorFactories: -- imported successfully
+[2017.05.27-08.29.18:732][522]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.27-08.30.45:485][738]LogSavePackage: Save=1250.70ms
+[2017.05.27-08.30.45:485][738]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_Auto7A7ECDD064995FCB664615F947CB66013.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto7.umap'
+[2017.05.27-08.30.45:487][738]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto7.umap
+[2017.05.27-08.30.45:491][738]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CustomMaps/UGC932402093/de_Nuke' took 1.301
+[2017.05.27-08.30.45:491][738]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.301
+[2017.05.27-08.30.45:495][738]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge] ([1] browsable assets)...
+[2017.05.27-08.30.45:512][738]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge]
+[2017.05.27-08.30.45:512][738]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge]
+[2017.05.27-08.30.45:537][738]LogSavePackage: Save=16.22ms
+[2017.05.27-08.30.45:537][738]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Midsize_crate_noridge_Auto7379F863E44D29492C8A63DB3DDAAD9E1.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge_Auto7.uasset'
+[2017.05.27-08.30.45:539][738]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge_Auto7.uasset
+[2017.05.27-08.30.45:539][738]LogFileHelpers: Auto-saving content packages took 0.046
+[2017.05.27-08.31.04:425][158]MapCheck: New page: Map Check
+[2017.05.27-08.31.04:456][158]Cmd: MAP REBUILD ALLVISIBLE
+[2017.05.27-08.31.04:463][158]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.05.27-08.31.19:676][158]LightingResults: New page: Lighting Build - May 26, 2017, 6:31:19 PM
+[2017.05.27-08.31.19:937][158]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.27-08.31.20:282][158]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.27-08.31.20:306][158]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.27-08.31.21:322][158]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.27-08.31.21:322][158]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2648
+[2017.05.27-08.31.24:930][158]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.27-08.31.24:930][158]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.27-08.31.24:931][158]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.27-08.31.24:931][158]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.27-08.31.24:931][158]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.27-08.31.25:473][158]LogEditorBuildUtils: Build time 0:21
+[2017.05.27-08.31.48:739][135]LightingResults:Warning: Warning LAdder_Placeholder Object has overlapping UVs.
+[2017.05.27-08.31.48:739][135]LightingResults: Info LAdder_Placeholder Lightmap UV are overlapping by 14.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.27-08.31.50:951][234]LightingResults:Warning: Warning LAdder_Placeholder Object has overlapping UVs.
+[2017.05.27-08.31.50:951][234]LightingResults: Info LAdder_Placeholder Lightmap UV are overlapping by 14.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.27-08.31.51:835][275]LightingResults:Warning: Warning LAdder_Placeholder Object has overlapping UVs.
+[2017.05.27-08.31.51:835][275]LightingResults: Info LAdder_Placeholder Lightmap UV are overlapping by 14.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.27-08.31.52:379][298]LightingResults:Warning: Warning LAdder_Placeholder Object has overlapping UVs.
+[2017.05.27-08.31.52:379][298]LightingResults: Info LAdder_Placeholder Lightmap UV are overlapping by 14.8%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.27-08.32.33:372][758]Job is a success!
+[2017.05.27-08.32.38:526][759]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024) - 121 MB total VRAM
+[2017.05.27-08.32.38:526][759]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024) - 121 MB total VRAM
+[2017.05.27-08.32.38:526][759]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024) - 121 MB total VRAM
+[2017.05.27-08.32.38:526][759]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024) - 121 MB total VRAM
+[2017.05.27-08.32.38:526][759]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 2048X2048) - 121 MB total VRAM
+[2017.05.27-08.32.38:526][759]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 2048X2048) - 121 MB total VRAM
+[2017.05.27-08.32.38:526][759]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024) - 121 MB total VRAM
+[2017.05.27-08.32.38:526][759]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024) - 121 MB total VRAM
+[2017.05.27-08.32.38:526][759]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256) - 121 MB total VRAM
+[2017.05.27-08.32.38:526][759]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256) - 121 MB total VRAM
+[2017.05.27-08.32.38:526][759]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 64X64) - 121 MB total VRAM
+[2017.05.27-08.32.38:526][759]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 64X64) - 121 MB total VRAM
+[2017.05.27-08.32.38:726][759]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8, 1024X128) - 121 MB total VRAM
+[2017.05.27-08.32.38:727][759]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 64X64) - 121 MB total VRAM
+[2017.05.27-08.32.38:727][759]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32) - 121 MB total VRAM
+[2017.05.27-08.32.38:927][759]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 512X1024) - 121 MB total VRAM
+[2017.05.27-08.32.39:257][759]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 1024X1024) - 121 MB total VRAM
+[2017.05.27-08.32.39:335][759]Lightmass on DESKTOP-3H4F7II: 1:12 min total, 467 ms importing, 166 ms setup, 8.50 sec photons, 1:02 min processing, 0 ms extra exporting [1802/1802 mappings]. Threads: 7:16 min total, 5:28 min processing.
+[2017.05.27-08.32.39:934][759]LogStaticLightingSystem: Illumination: 1:19 min (3.18 sec encoding lightmaps, 728 ms encoding shadowmaps)
+[2017.05.27-08.32.39:934][759]LogStaticLightingSystem: Lightmap texture memory:  14.1 MB (2.1 MB streaming, 12.0 MB non-streaming), 12 textures
+[2017.05.27-08.32.39:934][759]LogStaticLightingSystem: Shadowmap texture memory: 6.7 MB (0.7 MB streaming, 6.0 MB non-streaming), 5 textures
+[2017.05.27-08.32.44:958][759]DumpUnbuiltLightIteractions
+[2017.05.27-08.32.44:958][759]Lights with unbuilt interactions: 0
+[2017.05.27-08.32.44:958][759]
+[2017.05.27-08.32.44:958][759]Primitives with unbuilt interactions: 0
+[2017.05.27-08.32.44:984][760]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.27-08.32.44:985][760]MapCheck: New page: de_Nuke - May 26, 2017, 6:32:44 PM
+[2017.05.27-08.32.46:908][760]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,924.182ms to complete.
+[2017.05.27-08.32.47:112][760]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.27-08.33.02:681][950]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Midsize_crate_noridge13)
+[2017.05.27-08.33.23:419][980]Cmd: TRANSACTION UNDO
+[2017.05.27-08.33.23:419][980]LogEditorTransaction: Undo Edit Light Map Resolution
+[2017.05.27-08.33.26:015][ 87]Cmd: TRANSACTION UNDO
+[2017.05.27-08.33.26:015][ 87]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.05.27-08.33.27:520][146]Cmd: TRANSACTION UNDO
+[2017.05.27-08.33.27:520][146]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.05.27-08.33.29:660][223]Cmd: TRANSACTION REDO
+[2017.05.27-08.33.29:660][223]LogEditorTransaction: Redo Clicking on Actors (context menu)
+[2017.05.27-08.33.30:031][223]Cmd: TRANSACTION REDO
+[2017.05.27-08.33.30:031][223]LogEditorTransaction: Redo Clicking on Actors (context menu)
+[2017.05.27-08.33.30:410][223]Cmd: TRANSACTION REDO
+[2017.05.27-08.33.30:410][223]LogEditorTransaction: Redo Edit Light Map Resolution
+[2017.05.27-08.33.37:663][593]Cmd: TRANSACTION UNDO
+[2017.05.27-08.33.37:663][593]LogEditorTransaction: Undo Edit Light Map Resolution
+[2017.05.27-08.33.38:101][594]Cmd: TRANSACTION UNDO
+[2017.05.27-08.33.38:101][594]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.05.27-08.33.38:424][594]Cmd: TRANSACTION UNDO
+[2017.05.27-08.33.38:424][594]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2017.05.27-08.33.38:830][594]Cmd: TRANSACTION UNDO
+[2017.05.27-08.33.38:830][594]LogEditorTransaction: Undo Select Surfaces
+[2017.05.27-08.33.45:605][936]Cmd: TRANSACTION REDO
+[2017.05.27-08.33.45:605][936]LogEditorTransaction: Redo Select Surfaces
+[2017.05.27-08.33.47:881][ 11]Cmd: TRANSACTION REDO
+[2017.05.27-08.33.47:881][ 11]LogEditorTransaction: Redo Clicking on Actors (context menu)
+[2017.05.27-08.33.49:443][ 57]Cmd: TRANSACTION REDO
+[2017.05.27-08.33.49:443][ 57]LogEditorTransaction: Redo Clicking on Actors (context menu)
+[2017.05.27-08.33.50:145][ 68]Cmd: TRANSACTION REDO
+[2017.05.27-08.33.50:145][ 68]LogEditorTransaction: Redo Edit Light Map Resolution
+[2017.05.27-08.34.18:785][535]LogEditorTransaction: Undo Translate Collision
+[2017.05.27-08.34.54:228][170]LogEditorTransaction: Undo Scale Collision
+[2017.05.27-08.36.52:435][606]LogSavePackage: Save=38.65ms
+[2017.05.27-08.36.52:435][606]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Midsize_crate_noridge47428C7B4CC7C33B9DBEE0AFB8B94001.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.uasset'
+[2017.05.27-08.36.52:447][606]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.uasset
+[2017.05.27-08.37.08:198][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (small_crate17)
+[2017.05.27-08.37.59:298][492]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMaps/UGC932402093/Crates/small_crate1" FILE="F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/Crates/small_crate1.uasset" SILENT=true
+[2017.05.27-08.37.59:326][492]LogSavePackage: Save=16.77ms
+[2017.05.27-08.37.59:326][492]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/small_crate133C5F1B44AA5D958872C9C968FDDA719.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/Crates/small_crate1.uasset'
+[2017.05.27-08.37.59:335][492]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/Crates/small_crate1.uasset
+[2017.05.27-08.41.00:771][770]LogSavePackage: Save=1365.69ms
+[2017.05.27-08.41.00:771][770]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_Auto824B5E144483D67808739809B75489980.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto8.umap'
+[2017.05.27-08.41.00:773][770]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto8.umap
+[2017.05.27-08.41.00:775][770]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CustomMaps/UGC932402093/de_Nuke' took 1.420
+[2017.05.27-08.41.00:775][770]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.420
+[2017.05.27-08.41.00:778][770]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/CustomMaps/UGC932402093/de_Nuke_BuiltData] ([1] browsable assets)...
+[2017.05.27-08.41.00:778][770]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMaps/UGC932402093/de_Nuke_BuiltData]
+[2017.05.27-08.41.00:917][770]LogSavePackage: Save=113.91ms
+[2017.05.27-08.41.00:917][770]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_BuiltData_Auto8A32D9E7D48A2F4F21F49D08D650CB3C5.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_BuiltData_Auto8.uasset'
+[2017.05.27-08.41.00:919][770]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_BuiltData_Auto8.uasset
+[2017.05.27-08.41.00:919][770]LogFileHelpers: Auto-saving content packages took 0.142
+[2017.05.27-08.41.36:557][198]LogEditorFactories: Performing atomic reimport of [F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx]
+[2017.05.27-08.41.36:600][198]LogFbx: Loading FBX Scene from F:/Game Dev and 3D/Unreal/Pavlov/Custom Models/Props/Midsize_crate_noridge.fbx
+[2017.05.27-08.41.36:614][198]LogFbx: FBX Scene Loaded Succesfully
+[2017.05.27-08.41.36:621][198]LogFbx:Warning: Triangulating static mesh Cube
+[2017.05.27-08.41.37:028][198]LogStaticMesh: Building static mesh Midsize_crate_noridge...
+[2017.05.27-08.41.37:073][198]LogStaticMesh: Built static mesh [0.04s] /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge
+[2017.05.27-08.41.37:092][198]LogEditorFactories: -- imported successfully
+[2017.05.27-08.44.53:061][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (MidLarge_crate_ridge9)
+[2017.05.27-08.44.56:320][206]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (MidLarge_crate_ridge9)
+[2017.05.27-08.47.02:632][899]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.27-08.51.03:096][154]LogSavePackage: Save=1798.97ms
+[2017.05.27-08.51.03:096][154]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_Auto96A047870411820EAFC4BBC930F922346.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto9.umap'
+[2017.05.27-08.51.03:099][154]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/de_Nuke_Auto9.umap
+[2017.05.27-08.51.03:101][154]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CustomMaps/UGC932402093/de_Nuke' took 1.870
+[2017.05.27-08.51.03:101][154]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.870
+[2017.05.27-08.51.03:107][154]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge] ([1] browsable assets)...
+[2017.05.27-08.51.03:127][154]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.Midsize_crate_noridge]
+[2017.05.27-08.51.03:127][154]OBJ SavePackage: Finished generating thumbnails for package [/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge]
+[2017.05.27-08.51.03:166][154]LogSavePackage: Save=22.64ms
+[2017.05.27-08.51.03:166][154]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Midsize_crate_noridge_Auto92F42B68A4EABE0177D8D8F9FB23946F5.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge_Auto9.uasset'
+[2017.05.27-08.51.03:168][154]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Autosaves/Game/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge_Auto9.uasset
+[2017.05.27-08.51.03:168][154]LogFileHelpers: Auto-saving content packages took 0.062
+[2017.05.27-09.13.24:503][405]LogSavePackage: Save=1557.31ms
+[2017.05.27-09.13.24:503][405]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke16EBCA7C46138558292432B6BF8086DA.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke.umap'
+[2017.05.27-09.13.24:518][405]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke.umap
+[2017.05.27-09.13.24:563][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMaps/UGC932402093/de_Nuke_BuiltData" FILE="F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke_BuiltData.uasset" SILENT=true
+[2017.05.27-09.13.25:585][405]LogSavePackage: Save=989.22ms
+[2017.05.27-09.13.25:585][405]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/de_Nuke_BuiltDataA8AD875343D5E3B0BDCE17860C19D31D.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke_BuiltData.uasset'
+[2017.05.27-09.13.25:599][405]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/de_Nuke_BuiltData.uasset
+[2017.05.27-09.13.35:372][760]LogSavePackage: Save=10.95ms
+[2017.05.27-09.13.35:372][760]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Midsize_crate_noridgeEE14F2244FA0A8C9F925439818BC0E60.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.uasset'
+[2017.05.27-09.13.35:385][760]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/Crates/Midsize_crate_noridge.uasset
+[2017.05.27-09.13.35:433][760]LogSavePackage: Save=18.62ms
+[2017.05.27-09.13.35:433][760]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/WorldGridMaterial242BE15F404DA534549E4C8FE790D794.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/Crates/WorldGridMaterial.uasset'
+[2017.05.27-09.13.35:439][760]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/Crates/WorldGridMaterial.uasset
+[2017.05.27-09.13.35:442][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CustomMaps/UGC932402093/Props/Toxic_Barrel" FILE="F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/Props/Toxic_Barrel.uasset" SILENT=true
+[2017.05.27-09.13.35:460][760]LogSavePackage: Save=9.00ms
+[2017.05.27-09.13.35:460][760]LogSavePackage: Moving 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Toxic_BarrelC44B65494DA80A4AABCB5C8523152382.tmp' to 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/Props/Toxic_Barrel.uasset'
+[2017.05.27-09.13.35:466][760]LogSavePackage:Display: Finished SavePackage F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/CustomMaps/UGC932402093/Props/Toxic_Barrel.uasset
+[2017.05.27-09.13.35:580][760]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.27-09.13.35:580][760]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.05.27-09.13.35:968][761]Cmd: QUIT_EDITOR
+[2017.05.27-09.13.36:113][761]LogExit: Preparing to exit.
+[2017.05.27-09.13.36:809][761]LogExit: Editor shut down
+[2017.05.27-09.13.36:810][761]LogExit: Transaction tracking system shut down
+[2017.05.27-09.13.37:023][761]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.27-09.13.37:024][761]LogExit: Object subsystem successfully closed.
+[2017.05.27-09.13.37:046][761]LogD3D11RHI: Shutdown
+[2017.05.27-09.13.37:046][761]LogD3D11RHI: CleanupD3DDevice
+[2017.05.27-09.13.37:198][761]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.27-09.13.37:216][761]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (504)
+[2017.05.27-09.13.37:216][761]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (502)
+[2017.05.27-09.13.37:216][761]LogModuleManager: Shutting down and abandoning module CrashTracker (500)
+[2017.05.27-09.13.37:216][761]LogModuleManager: Shutting down and abandoning module SceneOutliner (498)
+[2017.05.27-09.13.37:216][761]LogModuleManager: Shutting down and abandoning module AddContentDialog (496)
+[2017.05.27-09.13.37:217][761]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module WidgetCarousel (495)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module EditorWidgets (492)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module CollectionManager (490)
+[2017.05.27-09.13.37:243][761]LogDirectoryWatcher: A directory notification for 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/Collections/' was aborted.
+[2017.05.27-09.13.37:243][761]LogDirectoryWatcher: A directory notification for 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/Developers/MOTYS/Collections/' was aborted.
+[2017.05.27-09.13.37:243][761]LogDirectoryWatcher: A directory notification for 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Saved/Collections/' was aborted.
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module StatsViewer (488)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module FoliageEdit (486)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module LandscapeEditor (484)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (482)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module ActorPickerMode (480)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module GeometryMode (478)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module TextureAlignMode (476)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module BspMode (474)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module HardwareSurvey (472)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (470)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module AutomationWorker (468)
+[2017.05.27-09.13.37:243][761]LogModuleManager: Shutting down and abandoning module CustomMapTools (466)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.05.27-09.13.37:244][761]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.05.27-09.13.37:245][761]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.05.27-09.13.37:245][761]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.05.27-09.13.37:245][761]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.05.27-09.13.37:245][761]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.05.27-09.13.37:245][761]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.05.27-09.13.37:245][761]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.05.27-09.13.38:246][761]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.05.27-09.13.38:246][761]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.05.27-09.13.38:246][761]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.05.27-09.13.38:247][761]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.05.27-09.13.38:248][761]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.05.27-09.13.38:248][761]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.05.27-09.13.38:248][761]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.05.27-09.13.38:248][761]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.05.27-09.13.38:248][761]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.05.27-09.13.38:248][761]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.05.27-09.13.38:248][761]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.05.27-09.13.38:291][761]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.05.27-09.13.38:291][761]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.05.27-09.13.38:291][761]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.05.27-09.13.38:291][761]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.05.27-09.13.38:291][761]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.05.27-09.13.38:291][761]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.05.27-09.13.38:291][761]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.05.27-09.13.38:292][761]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module PavlovProxy (304)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.27-09.13.38:371][761]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.27-09.13.38:372][761]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.27-09.13.38:373][761]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.27-09.13.38:373][761]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.27-09.13.38:373][761]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.27-09.13.38:374][761]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.27-09.13.38:376][761]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.27-09.13.38:376][761]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.27-09.13.38:376][761]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.27-09.13.38:376][761]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.27-09.13.38:477][761]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.27-09.13.38:578][761]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.27-09.13.38:578][761]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.27-09.13.38:578][761]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.27-09.13.38:578][761]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.27-09.13.38:578][761]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.27-09.13.38:578][761]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.27-09.13.38:579][761]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.27-09.13.38:580][761]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.27-09.13.38:585][761]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.27-09.13.38:585][761]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.27-09.13.38:585][761]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.27-09.13.38:585][761]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.27-09.13.38:585][761]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.27-09.13.38:585][761]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.27-09.13.38:799][761]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.27-09.13.38:800][761]LogDirectoryWatcher: A directory notification for 'F:/Game Dev and 3D/Unreal/Pavlov/de_nuke/Content/' was aborted.
+[2017.05.27-09.13.38:800][761]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.27-09.13.38:800][761]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.27-09.13.38:806][761]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.27-09.13.38:806][761]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.27-09.13.38:806][761]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.27-09.13.38:806][761]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.27-09.13.38:806][761]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.27-09.13.38:806][761]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.27-09.13.38:806][761]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.27-09.13.38:806][761]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.27-09.13.38:837][761]LogDerivedDataCache: Shutdown
+[2017.05.27-09.13.38:837][761]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.27-09.13.38:837][761]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.27-09.13.38:837][761]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.27-09.13.38:837][761]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.27-09.13.38:837][761]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.27-09.13.38:837][761]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.27-09.13.38:837][761]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.27-09.13.38:837][761]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.27-09.13.38:837][761]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.27-09.13.38:837][761]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.27-09.13.38:838][761]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.27-09.13.38:839][761]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.27-09.13.38:839][761]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.27-09.13.38:839][761]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.27-09.13.38:839][761]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.27-09.13.38:839][761]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.27-09.13.38:839][761]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.27-09.13.38:839][761]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.27-09.13.38:841][761]LogHMD: Oculus shutdown.
+[2017.05.27-09.13.38:841][761]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.27-09.13.38:841][761]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.27-09.13.38:841][761]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.27-09.13.38:841][761]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.27-09.13.38:841][761]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.27-09.13.38:841][761]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.27-09.13.38:841][761]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.27-09.13.38:841][761]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.27-09.13.38:841][761]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B471D4B90-487A-0B1F-ADAC-C6BF0C1E183E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=d9a965bc43390f8c1fc831aa1adf6fb0%7C9799d0961886446891ceaaac11099baa%7C51a17574-0817-4855-8835-4da224b502d4&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.27-09.13.38:845][761]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.27-09.13.38:848][761]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.27-09.13.38:848][761]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.27-09.13.38:848][761]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.27-09.13.38:848][761]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.27-09.13.38:848][761]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.27-09.13.38:855][761]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.27-09.13.38:855][761]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.27-09.13.38:855][761]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.27-09.13.38:855][761]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.27-09.13.38:855][761]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.27-09.13.38:855][761]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.27-09.13.38:855][761]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.27-09.13.38:856][761]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.27-09.13.38:856][761]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.27-09.13.38:856][761]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.27-09.13.38:864][761]LogExit: Exiting.
+[2017.05.27-09.13.38:895][761]Log file closed, 05/27/17 02:13:38
